@@ -12,3 +12,5 @@ Components and how they modify the mule event
 - Scatter-gather: replaces payload with the collection of mule messages from all routes, variables are kept
 - DB Select: replaces mule message (attr / payload)
 - Most of File operations: replace mule message
+- For each : Keeps the original mule message, and retains changes for variables
+- Parallel For each : Keeps in the payload the results from transformations for every element of the collection, and retains changes for variables
