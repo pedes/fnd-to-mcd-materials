@@ -14,3 +14,7 @@ Components and how they modify the mule event
 - Most of File operations: replace mule message
 - For each : Keeps the original mule message, and retains changes for variables
 - Parallel For each : Keeps in the payload the results from transformations for every element of the collection, and retains changes for variables
+
+
+Dataweave tutorial
+https://dataweave.mulesoft.com/
